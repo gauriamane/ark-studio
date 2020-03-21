@@ -1,1 +1,103 @@
-<!-- In this file you are going to write the CSS code -->
+.transparent_nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(248, 244, 244, 0.7);
+    position: fixed;
+    width: 99%;
+    }
+    #cta_text{
+      float: left;
+      margin-left: 1.5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #cta_text:hover{
+      background-color:#50ccff; 
+    }
+    #cta_link{
+      float: right;
+      margin-left: 677px;
+      text-decoration: none;
+      color: white;
+      background-color: #50ccff;
+      padding-bottom: 1%;
+    }
+    #cta_link:hover{
+      background-color:palevioletred;
+    }
+      #nav_list li{
+        list-style: none;
+        display: inline-block;
+        padding: 0px 10px;
+      }
+      .logo{
+        margin-right: auto;
+      }
+      .services-wrapper li{
+        display: inline-block;
+        padding: 0px 10%;
+      }
+      .services-wrapper{
+        text-align: center;
+        color: #454545;
+      }
+      .recent_work{
+        text-align: center;
+      }
+      .recent_work img {
+        padding: 0;
+        margin: 0;
+        margin-left: -4px;
+      }
+       .recent_work img:hover {
+        background-color: #C37500;
+        opacity:0.7 !important;
+        filter:alpha(opacity=70);
+        box-shadow: 0 0 0px #000000;
+       }
+    
+      .testimonials-wrapper{
+        text-align: center;
+        color: #454545;
+        
+     }
+      .testimonials-wrapper li{
+        display: inline-block;
+        padding: 0px 10.5%;
+      }
+      
+      .Location
+      {
+        display: inline-block;
+        padding: 0px 50px;
+        color: white;
+      }
+      .Company{
+        display: inline-block;
+        padding: 0px 50px;
+        color: white;
+      }
+      .Support{
+        display: inline-block;
+        padding: 0px 50px;
+        color: white;
+      }
+      .footer_widget{
+        text-align: center;
+        background:#454545;
+      }
+      #comp_list{
+        list-style-type: none;
+        padding:0px 0px;
+      }
+      #sup_list{
+        list-style-type: none;
+        padding:0px 0px;
+      }
+      .z1{
+        padding: 0px 50px;
+        display: inline-block;
+        background-repeat: round;
+      }
+      
+      
