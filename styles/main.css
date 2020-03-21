@@ -33,14 +33,7 @@
       .logo{
         margin-right: auto;
       }
-      .services-wrapper li{
-        display: inline-block;
-        padding: 0px 10%;
-      }
-      .services-wrapper{
-        text-align: center;
-        color: #454545;
-      }
+    
       .recent_work{
         text-align: center;
       }
@@ -55,17 +48,6 @@
         filter:alpha(opacity=70);
         box-shadow: 0 0 0px #000000;
        }
-    
-      .testimonials-wrapper{
-        text-align: center;
-        color: #454545;
-        
-     }
-      .testimonials-wrapper li{
-        display: inline-block;
-        padding: 0px 10.5%;
-      }
-      
       .Location
       {
         display: inline-block;
